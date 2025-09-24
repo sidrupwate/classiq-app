@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 22rem;
     align-items: center;
     padding: 24px 48px;
     background: #fff;
@@ -53,5 +54,37 @@
   
   .nav-btn:hover {
     background: #333;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      display: flex;
+      align-items: left;
+      justify-content: space-between;
+      padding: 10px;
+    }
+
+    .navbar-logo {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .logo-text {
+      display: none;
+    }
+    .nav-btns {
+      display: none;
+    }
+    .menu-icon {
+      display: block;
+      font-size: 24px;
+      margin-top: 8px;
+      margin-left: 10rem;
+    }
   }
   

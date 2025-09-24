@@ -23,7 +23,9 @@ export default function Dashboard() {
           </h1>
           <p className="dash-description">
             Unlock a world of knowledge and skills with our innovative online
-            courses, expert instructors, and interactive learning tools.
+            courses, expert instructors, and interactive learning tools.and
+            skills with our innovative online courses, expert instructors, and
+            interactive learning tools.
           </p>
           <button className="dash-cta" onClick={() => navigate("/courses")}>
             Explore Courses
@@ -34,6 +36,7 @@ export default function Dashboard() {
             src="../images/Image 4.png"
             alt="Hero Character"
             className="dash-character"
+            style={{ width: "400px", height: "400px" }}
           />
         </div>
       </div>
