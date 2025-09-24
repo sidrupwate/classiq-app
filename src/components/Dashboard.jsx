@@ -17,7 +17,7 @@ export default function Dashboard() {
         </div>
         <div className="dash-hero-right">
           <img
-            src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=facearea&w=350&q=80"
+            src="../images/Image 4.png"
             alt="Hero Character"
             className="dash-character"
           />
@@ -27,11 +27,11 @@ export default function Dashboard() {
         Trusted by 5,000+ Companies Worldwide
       </div>
       <div className="dash-hero-logos">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png" alt="Google" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Airbnb_Logo_Bélo.svg" alt="Airbnb" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" />
+        <img src="../images/Group 2825.svg" alt="Google" />
+        <img src="../images/Group 2815.svg" alt="Netflix" />
+        <img src="../images/Group 2815.svg" alt="Airbnb" />
+        <img src="../images/Group 2815.svg" alt="Amazon" />
+        <img src="../images/Group 2815.svg" alt="Facebook" />
       </div>
     </div>
   );
