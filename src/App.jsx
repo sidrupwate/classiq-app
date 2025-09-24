@@ -14,10 +14,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Navigate to="/dashboard" />} />
-        <Route path="/courses" element={<Courses />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/courses" element={<Courses />} />
       </Routes>
       <Footer />
     </Router>
