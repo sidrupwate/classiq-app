@@ -31,16 +31,7 @@
     display: flex;
     align-items: center;
   }
-  
-  .footer-logo-square {
-    background: #d3fc85;
-    border-radius: 15px;
-    padding: 7px;
-    display: flex;
-    align-items: center;
-    margin-right: 12px;
-  }
-  
+    
   .footer-logo-text {
     font-weight: 700;
     font-size: 2rem;
@@ -70,14 +61,15 @@
     flex: 1;
     padding: 18px 24px;
     border-radius: 14px 0 0 14px;
-    border: 0;
+    border: none;
     background: #fff;
     font-size: 1.16rem;
     font-family: inherit;
+    color: #1b1b1b;
   }
   
   .footer-subscribe-form button {
-    background: #d3fc85;
+    background: #C2F578;
     border: none;
     border-radius: 0 14px 14px 0;
     color: #1b1b1b;

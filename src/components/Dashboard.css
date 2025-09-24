@@ -1,0 +1,97 @@
+.dash-hero-bg {
+    background: #fafafa;
+    font-family: 'Poppins', Arial, sans-serif;
+    min-height: 100vh;
+    padding-top: 48px;
+    padding-bottom: 42px;
+  }
+  
+  .dash-hero-container {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 26px;
+    gap: 42px;
+  }
+  
+  .dash-hero-left h1 {
+    font-weight: 500;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #232323;
+    line-height: 1.1;
+  }
+  
+  .dash-highlight {
+    font-weight: 700;
+    color: #111;
+    background: transparent;
+  }
+  
+  .dash-description {
+    color: #979797;
+    max-width: 440px;
+    font-size: 1.01rem;
+    margin-bottom: 30px;
+    margin-top: 9px;
+  }
+  
+  .dash-cta {
+    background: #cbfe96;
+    color: #1a3107;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 13px 32px;
+    font-size: 1.08rem;
+    margin-top: 10px;
+    transition: background 0.15s;
+    cursor: pointer;
+    box-shadow: 0 2px 14px rgba(85,190,47,0.12);
+  }
+  .dash-cta:hover {
+    background: #ace669;
+  }
+  
+  .dash-hero-right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  
+  .dash-character {
+    width: 320px;
+    border-radius: 30px;
+    box-shadow: 0 2px 18px rgba(85,190,47,0.11);
+    background: #eee;
+    display: block;
+  }
+  
+  .dash-hero-trust {
+    margin: 46px auto 20px auto;
+    text-align: center;
+    color: #272727;
+    font-weight: 500;
+    font-size: 1.17rem;
+    letter-spacing: 0.1px;
+  }
+  
+  .dash-hero-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+    margin-top: 0;
+  }
+  
+  .dash-hero-logos img {
+    height: 38px;
+    filter: grayscale(1) opacity(0.6);
+    object-fit: contain;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  

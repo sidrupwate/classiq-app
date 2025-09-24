@@ -6,13 +6,15 @@ import Dashboard from "./components/Dashboard";
 import "./components/Navbar.css";
 import "./components/Auth.css";
 import Footer from "./components/Footer";
+import Courses from "./components/Courses";
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Navigate to="/signup" />} />
+        <Route path="/" element={<Navigate to="/dashboard" />} />
+        <Route path="/courses" element={<Courses />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />

@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     gap: 13px;
+    cursor: pointer;
   }
   
   .logo-icon {

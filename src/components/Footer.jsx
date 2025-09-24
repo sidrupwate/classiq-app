@@ -6,13 +6,7 @@ export default function Footer() {
       <div className="footer-top">
         <div className="footer-col left">
           <div className="footer-logo-row">
-            <span className="footer-logo-square">
-              {/* Use your own SVG/logo if available */}
-              <svg width="34" height="34" viewBox="0 0 34 34" fill="none">
-                <rect width="34" height="34" rx="12" fill="#D3FC85" />
-                <circle cx="17" cy="17" r="7" fill="#272727"/>
-              </svg>
-            </span>
+            <img src="../images/class-logo.svg" alt="" />
             <span className="footer-logo-text">ClassIQ</span>
           </div>
           <div className="footer-subscribe-title">Subscribe</div>
@@ -39,12 +33,12 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <span>© 2024 ClassIQ. All rights reserved.</span>
+        <span style={{ color: "black" }}>© 2024 ClassIQ. All rights reserved.</span>
         <div className="footer-socials">
           <a href="#" className="footer-social-btn" aria-label="Instagram">
             <span className="footer-social-bg">
               <svg width="22" height="22" viewBox="0 0 448 512" fill="black"><path d="M224 202A54 54 0 1 0 278 256 54.08 54.08 0 0 0 224 202zm124-41a54 54 0 1 0 54 54A54.07 54.07 0 0 0 348 161zm50.38-80.5A54 54 0 0 0 364.3 24.18C325.94 8.43 292.52 0 224 0S122.06 8.43 83.7 24.18A54 54 0 0 0 49.62 80.5C33.87 118.86 25.44 152.28 25.44 220.81S8.43 327.94 24.18 366.3a54 54 0 0 0 34.08 56.32C122.06 503.57 155.48 512 224 512s101.94-8.43 140.3-24.18a54 54 0 0 0 34.08-56.32C414.13 393.14 422.56 359.72 422.56 291.19S439.57 184.06 423.82 145.7zM397.1 431.23A37.64 37.64 0 0 1 370.33 445C335.51 459.44 304.25 466 224 466s-111.51-6.56-146.32-21A37.62 37.62 0 0 1 50.9 431.23C36.56 395.41 30 364.15 30 284S36.56 172.59 50.9 136.77A37.65 37.65 0 0 1 77.67 123C112.49 108.56 143.75 102 224 102s111.51 6.56 146.33 21A37.64 37.64 0 0 1 397.1 136.77C411.44 172.59 418 203.85 418 284S411.44 395.41 397.1 431.23z"/></svg>
-            </span>
+            </span> 
           </a>
           <a href="#" className="footer-social-btn" aria-label="X">
             <span className="footer-social-bg">
