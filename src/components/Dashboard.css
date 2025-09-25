@@ -330,14 +330,7 @@
     background: transparent;
   }
   .dash-vector {
-    position: absolute;
-    top: 54%;
-    left: 30%;
-    width: 150px;
-    height: 256px;
-    margin-top: 4px;
-    z-index: 0;
-    pointer-events: none;
+    display: none;
   }
   .dash-cta {
     display:flex;

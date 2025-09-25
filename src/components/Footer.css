@@ -216,5 +216,10 @@
       display: flex;
       flex-direction: column;
     }
+    .footer-logo-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
   }
   

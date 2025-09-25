@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-col left">
           <div className="footer-logo-row">
             <img src="../images/class-logo.svg" alt="" />
-            <span className="footer-logo-text">ClassIQ</span>
+            <span style={{ fontWeight: "bold", color: "#232323" }} className="footer-logo-text">ClassIQ</span>
           </div>
           <div className="footer-subscribe-title">Subscribe</div>
           <div className="footer-subscribe-desc">
@@ -19,14 +19,14 @@ export default function Footer() {
           </form>
         </div>
         <div className="footer-col">
-          <div className="footer-col-title">ClassIQ Bussiness</div>
+          <div style={{ fontWeight: "bold", color: "#232323" }} className="footer-col-title">ClassIQ Bussiness</div>
           <a href="#">Teach on ClassIQ</a>
           <a href="#">Teaching Tools</a>
           <a href="#">ClassIQ app</a>
           <a href="#">Contact us</a>
         </div>
         <div className="footer-col">
-          <div className="footer-col-title">Careers</div>
+          <div style={{ fontWeight: "bold", color: "#232323" }} className="footer-col-title">Careers</div>
           <a href="#">Blog</a>
           <a href="#">Affiliate</a>
           <a href="#">Support</a>
