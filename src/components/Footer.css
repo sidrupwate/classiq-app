@@ -174,7 +174,8 @@
     .footer-subscribe-form {
       display: flex;
       margin-bottom: 18px;
-      max-width: 200px;
+      width: 100%;
+      max-width: 150px;
     }
     
     .footer-subscribe-form input {
@@ -195,7 +196,7 @@
       color: #1b1b1b;
       font-weight: bold;
       font-size: 0.8rem;
-      padding: 19px 34px;
+      padding: 19px;
       cursor: pointer;
       transition: background 0.2s;
     }
