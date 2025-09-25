@@ -221,5 +221,10 @@
       align-items: center;
       gap: 10px;
     }
+    .footer {
+      background: #f8f9f8;
+      font-family: 'Poppins', Arial, sans-serif;
+      width: 100%;
+    }
   }
   
