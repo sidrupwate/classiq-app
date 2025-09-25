@@ -169,20 +169,21 @@
       color: #656565;
       font-size: 0.8rem;
       margin-bottom: 16px;
-      max-width: 350px;
-      justify-content: center;
+      max-width: 355px;
     }
 
     .footer-subscribe-form {
       display: flex;
       margin-bottom: 18px;
       width: 100%;
+      max-width: 250px;
+      padding: 15px;
       justify-content: center;
     }
     
     .footer-subscribe-form input {
       flex: 1;
-      padding: 10px;
+      padding: 15px;
       border-radius: 14px 0 0 14px;
       border: none;
       background: #fff;
@@ -227,7 +228,7 @@
     .footer {
       background: #f8f9f8;
       font-family: 'Poppins', Arial, sans-serif;
-      width: 80%;
+      width: 100%;
     }
   }
   
