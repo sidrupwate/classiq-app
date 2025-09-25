@@ -33,9 +33,9 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <span style={{ color: "black" }}>© 2024 ClassIQ. All rights reserved.</span>
+        <span className="footer-bottom-text">© 2024 ClassIQ. All rights reserved.</span>
         <div className="footer-socials">
-          <img src="../images/.svg" alt="" />
+          <img src="../images/instagram.svg" alt="" />
         </div>
       </div>
     </footer>

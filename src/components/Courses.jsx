@@ -33,7 +33,7 @@ const courses = [
     title: "HTML in 20 minutes",
     description: "Learn to design beautiful user interfaces",
     price: "$200",
-    img: "https://images.unsplash.com/photo-1519340333755-c8f7e7c2ef51?auto=format&fit=facearea&w=600&q=80",
+    img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=facearea&w=600&q=80",
     label: "ADVANCED"
   }
 ];

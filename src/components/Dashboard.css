@@ -292,11 +292,76 @@
   }
 }
 @media (max-width: 600px) {
+    .dash-hero-container {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: none;
+        padding: 0;
+        gap: 0;
+      }
   .dash-section-professionals {
     margin-top: 18px;
     padding: 0 6px;
   }
   .dash-prof-bottom {
     padding: 0;
+  }
+  .dash-hero-left h1 {
+    font-weight: 500;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #232323;
+    line-height: 1.5;
+}
+.dash-hero-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dash-character {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(5%, -50%);
+    background: transparent;
+  }
+  .dash-vector {
+    position: absolute;
+    top: 54%;
+    left: 30%;
+    width: 150px;
+    height: 256px;
+    margin-top: 4px;
+    z-index: 0;
+    pointer-events: none;
+  }
+  .dash-cta {
+    display:flex;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    align-self: center;
+    margin-left: 25%;
+  }
+  .dash-description {
+    color: #979797;
+    width: 350px;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    margin-top: 9px;
+  }
+  .dash-hero-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 12px;
+  }
+  .dash-facebook {
+    display: none;
   }
 }

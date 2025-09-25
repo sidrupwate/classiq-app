@@ -36,7 +36,6 @@ export default function Dashboard() {
             src="../images/Image 4.png"
             alt="Hero Character"
             className="dash-character"
-            style={{ width: "400px", height: "400px" }}
           />
         </div>
       </div>
@@ -48,7 +47,7 @@ export default function Dashboard() {
         <img src="../images/netflix-3 1.svg" alt="Netflix" />
         <img src="../images/airbnb 1.svg" alt="Airbnb" />
         <img src="../images/amazon.svg" alt="Amazon" />
-        <img src="../images/facebook.svg" alt="Facebook" />
+        <img className="dash-facebook" src="../images/facebook.svg" alt="Facebook" />
       </div>
       <div className="dash-section-professionals">
         <div className="dash-prof-head">

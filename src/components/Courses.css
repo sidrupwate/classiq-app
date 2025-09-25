@@ -131,4 +131,18 @@
   .course-enroll:hover {
     background: #a6ec50;
   }
+
+  @media (max-width: 768px) {
+    .courses-main {
+        margin: 22px 0 0 0;
+        padding: 0 20px 24px 20px;
+        font-family: 'Poppins', Arial, sans-serif;
+        background: #fafafa;
+      }
+    .courses-list {
+      flex-direction: column;
+      gap: 20px;
+      margin: 0;
+    }
+  }
   
