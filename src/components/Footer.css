@@ -169,12 +169,14 @@
       color: #656565;
       font-size: 0.8rem;
       margin-bottom: 16px;
-      max-width: 355px;
+      width: 100%;
+      max-width: 345px;
     }
 
     .footer-subscribe-form {
       display: flex;
       margin-bottom: 18px;
+      margin-right: 25px;
       width: 100%;
       max-width: 250px;
       padding: 15px;
